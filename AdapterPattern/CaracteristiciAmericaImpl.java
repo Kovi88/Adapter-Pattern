@@ -52,7 +52,7 @@ public class CaracteristiciAmericaImpl implements CaracteristiciAmerica {
 		return vitezaMaxA;
 	}
 	
-	// functiile set seteaza valorile curente corespunzatoare caracteristicilor masinii
+	// functiile set seteaza valorile curente corespunzatoare caracteristicilor autovehiculului
 	@Override
 	public void setModelA(String modelA) {
 		this.modelA = modelA;

@@ -22,7 +22,7 @@ public class ConfiguratorAudi {
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				try { // configurarea ferestrei interfetei grafice 
+				try { // configurarea ferestrei cu interfata grafica
 					ConfiguratorAudi window = new ConfiguratorAudi();
 					window.frmConfiguratorAudi.setVisible(true);
 				} 
