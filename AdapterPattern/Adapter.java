@@ -18,7 +18,16 @@ public class Adapter implements CaracteristiciEuropa {
 		setCaracteristici();
 	}
 	
+	public Adapter() {
+		this.caracteristiciAmerica = null;
+		// TODO Auto-generated constructor stub
+	}
+
 	// functiile get returneaza campurile atribuite caracteristicilor masinii 
+	
+	/**
+	 * Functia getModelEU returneaza modelul de masina ales, de exemplu "A4"
+	 */
 	@Override
 	public String getModelEU() {
 		return modelEU;
